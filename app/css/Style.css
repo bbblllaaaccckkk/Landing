@@ -1,0 +1,879 @@
+#header {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    padding: 30px 20px;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'dosisregular';
+}
+
+span,
+p,
+li,
+a {
+    font-family: 'open_sanslight';
+}
+
+.section-1 {
+    height: 100vh;
+    background-image: url(../images/background-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+
+
+.section-1 h1 {
+    font-size: 30px;
+    letter-spacing: 50px;
+    color: #fefefe;
+    margin-bottom: 100px;
+    /*text-indent: 50px;*/
+}
+
+.section-1 p {
+    font-size: 19px;
+    color: #fefefe;
+}
+
+.arrow-down {
+    width:40px;
+    height: 40px;
+    background: #ffffff;
+    border-radius: 5px;
+    bottom: 30px;
+    transform: rotate(-135deg);
+    cursor: pointer;
+}
+
+.arrow-down .fa-chevron-down {
+    transform: rotate(135deg) translateY(7px);
+}
+
+#header .links li a {
+    margin-left: 30px;
+    font-size: 11px;
+    color: #ffffff;
+    font-family: 'open_sansregular';
+}
+
+#header .navbar-toggler {
+    outline: none;
+    width: 30px;
+    padding: 0; 
+}
+
+
+#header .navbar-toggler-icon {
+    background: white;
+    height: 2px;
+    position: relative;
+    width: 100%;
+}
+
+#header .navbar-toggler-icon::before,
+#header .navbar-toggler-icon::after {
+    content: '';
+    width: 100%;
+    background: white;
+    height: 2px;
+    position: absolute;
+    left: 0;
+}
+
+#header .navbar-toggler-icon::before {
+    top: -8px;
+}
+
+#header .navbar-toggler-icon::after {
+    bottom: -8px;
+}
+
+#header links li a {
+    font-size: 11px;
+    color: #fefefe;
+    font-family: 'open_sansregular';
+}
+
+
+
+
+
+
+.section-2 {
+    padding: 145px 0;
+    border: 1px solid #e6e6e6;
+}
+
+h3 {
+    color: #111111;
+    letter-spacing: 10px;
+    font-size: 19px;
+}
+
+.m-bot-80 {
+    margin-bottom: 80;
+}
+
+.articles .col-lg-4 > p {
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.articles .blockquote p {
+    font-size: 24px;
+    line-height: 35px;
+    margin-bottom: 30px;
+}
+
+
+
+
+
+
+/*работа в классе section-3*/
+
+.section-3 {
+    padding: 140px 0;
+}
+
+
+.section-3 .nav-item h5 {
+    font-size: 14px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+.section-3 .nav-item .icon {
+    font-size: 48px;
+    margin-bottom: 35px;
+}
+
+.section-3 .nav-tabs .nav-link,
+.section-3 .nav-tabs {
+    border: none;
+}
+
+
+.section-3 .nav-link {
+    color: #888888;
+    padding: 0;
+}
+
+.section-3 .nav-link.active {
+    color: #111111;
+}
+
+.section-3 .nav-tabs {
+    margin-bottom: 180px;
+}
+
+.section-3 .title {
+    margin-bottom: 125px;
+}
+
+
+
+.section-3 .nav-item {
+    padding: 0;
+}
+
+@media screen and (min-width: 992px) {
+    .section-3 .nav-item {
+        flex: 0 0 20%;
+        max-width: 20%;
+    }
+}
+
+
+
+
+
+
+
+/*Домашняя работа- блок skills*/
+
+.three-fhoto {
+    padding: 110px 0;
+}
+
+
+.three-fhoto img {
+    width: 100%;
+}
+
+h2.name {
+    font-size: 15px;
+    margin-top: 30px;
+}
+
+h4.profession {
+    font-size: 12px;
+    margin-top: 16px;
+}
+
+h2.name,
+h4.profession {
+    color: #777777;
+    letter-spacing: 6px;
+}
+
+
+/*скрытые блоки*/
+
+.skills {
+    background: #131313;
+    width: 350px;
+    height: 425px;
+    top: 0;
+    position: absolute;
+    transform: scale(0);
+    color: #cdcdcd;
+    padding: 40px;
+}
+
+.progress {
+    background: #777777;
+    margin-bottom: 10px;
+    width: 100%;
+    border-radius: 0;
+
+} 
+
+.skills-block span {
+    font-size: 15px;
+    text-align: left;
+    color: #cfcfcf;
+    margin-left: 30px;
+}
+
+.hide:hover .skills {
+    transform: scale(1)
+}
+
+.skills span {
+    text-transform: uppercase;
+    font-size: 11px;
+    letter-spacing: 3px;
+    font-weight: 500;
+}
+
+.skills h5 {
+    text-transform: uppercase;
+    font-size: 18px;
+    letter-spacing: 6px;
+    font-weight: 600;
+}
+
+.progress-bar {
+    background-color: #e6e6e6;
+}
+
+/*---------скрытые блоки конец----------------*/
+
+
+
+
+
+
+.imack {
+    transform: translateY(-30px);
+}
+
+.section-4 {
+    background: #111111;
+}
+
+.section-4 h5 {
+    font-size: 18px;
+    letter-spacing: 5px;
+}
+
+.section-4 h5,
+.section-4 p {
+    color: #ffffff;
+}
+
+.section-4 p {
+    margin-top: 30px;
+    line-height: 1.7em;
+}
+
+.knob {
+    font-size: 14px;
+    letter-spacing: 3px;
+    text-decoration: none;
+    background: #cfcfcf;
+    padding: 15px 40px;
+    color: #111111;
+    border-radius: 5px;
+    margin-top: 40px;
+}
+
+
+
+
+
+/*---section-5 табы с картинками HW-9----Начало-----*/
+
+.section-5 .title {
+    padding-top: 140px;
+}
+
+.section-5 p {
+    padding: 80px 0;
+    color: #777777;
+}
+
+.section-5 .nav-item {
+    font-size: 13px;
+    letter-spacing: 5px;
+    border: none;
+}
+
+.section-5 .col-sm-4 img {
+    width: 100%;
+}
+
+.section-5 .col-sm-4 {
+    padding: 0;
+}
+
+
+.section-5 .nav-tabs .nav-link,
+.section-5 .nav-tabs {
+    border: none;
+}
+
+
+.section-5 .nav-link {
+    color: #888888;
+    padding: 80px 35px;
+}
+
+.section-5 .nav-link.active {
+    color: #111111;
+}
+
+
+
+/*--скрытые картинки--*/
+.section-5 .img-color {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    transform: scale(0);
+}
+
+.section-5 .col-sm-4:hover .img-color {
+    transform: scale(1)
+}
+
+
+
+
+/*-----Конец------section-5 табы с картинками HW-9-*/
+
+
+
+
+
+
+.section-6 {
+    padding: 70px 0;
+    background: #111111;
+
+}
+
+.section-6 h3 {
+    color: white;
+}
+
+.section-6 .btn {
+    background-color: #cfcfcf;
+    color: #111111;
+    outline: none;
+    padding: 15px 40px;
+    border-radius: 5px;
+    margin-top: 20px;
+} 
+
+
+
+
+
+
+
+
+
+.section-7 {
+    padding: 140px 0;
+}
+
+.section-7 .title {
+    margin-bottom: 90px;
+}
+
+
+.section-7 [class|="icon"] {
+    font-size: 48px;
+}
+
+.section-7 h4 {
+    font-size: 14px;
+    margin: 40px 0;
+    letter-spacing: 5px;
+}
+
+.section-7 p {
+    color: #777777;
+    font-size: 14px;
+}
+
+
+.section-7 .choose-us div:nth-child(-n+3){
+    margin-bottom: 90px;
+}
+
+@media screen and (max-width: 991px) {
+    .section-7 .choose-us div:nth-child(-n+3) {
+        margin: 0;
+    }
+}
+
+
+
+/*---  Lesson 9 -----*/
+
+.section-8 #carouselExampleIndicators {
+    background-color: #020202;
+    padding: 140px 0;
+}
+
+.section-8 .carousel-indicators {
+    bottom: 30px;
+}
+
+.section-8 .carousel-indicators li {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #ffffff;
+    margin: 0 5px;
+}
+
+.section-8 .carousel-indicators li.active {
+    background: transparent;
+    border: 1px solid #ffffff;
+}
+
+.section-8 .carousel-caption {
+    right: auto;
+    left: auto;
+    bottom: auto;
+    margin: auto;
+    width: 60%;
+}
+
+.section-8 [class|="icon"] {
+    font-size: 32px;
+    color: #ffffff;
+}
+
+.section-8 h3 {
+    margin: 25px 0 50px;
+    color: #ffffff;
+    text-transform: uppercase;  
+}
+
+.section-8 p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.section-8 footer {
+    font-size: 11px;
+    text-transform: uppercase;
+    color: #757575;
+    letter-spacing: 1px;
+}
+
+
+.section-8 [class|="carousel-control"] {
+    bottom: auto;
+    top: 50%;
+    transform: translateY(-50%);
+    opacity: 1;
+    border: 80px solid transparent;
+}
+
+.section-8 .carousel-control-next {
+    border-right: 80px solid white; 
+}
+
+.section-8 .carousel-control-prev { 
+    border-left: 80px solid white; 
+}
+
+.section-8 .fa {
+    position: absolute;
+    color: #020202;
+    font-size: 20px;
+}
+
+.section-8 .fa-chevron-right {
+    right: -60px;
+}
+
+.section-8 .fa-chevron-left {
+    left: -60px;
+}
+
+
+
+
+
+
+
+.section-9 {
+    padding: 140px 0;
+}
+
+.section-9 .item img {
+    width: 100%;
+}
+
+.section-9 .img-color {
+    top: 0;
+    z-index: -1;
+    left: 0;
+    
+}
+
+.section-9 .img-wrapper:hover .img-color {
+    z-index: 1;
+}
+
+.section-9 .row:first-child {
+    margin-bottom: 80px;
+}
+
+.section-9 .row:first-child a {
+    font-size: 11px;
+    letter-spacing: 5px;
+    font-family: 'dosisregular';
+    color: #999999;
+}
+
+
+.section-9 .item h4 {
+    font-size: 15px;
+    color: #777777;
+    letter-spacing: 5px;
+    margin: 30px 0 15px;
+    flex-grow: 1;
+}
+
+.section-9 .item h5 {
+    font-size: 11px;
+    color: #999999;
+    letter-spacing: 5px;
+    margin-bottom: 30px;
+}
+
+
+.section-9 .item p {
+    font-size: 15px;
+    color: #777777;
+    line-height: 1.7;
+    margin-bottom: 30px;
+}
+
+.section-9 .btn {
+    background: #e5e5e5;
+    color: #777777;
+    font-size: 11px;
+    border: none;
+    padding: 9px 15px;
+}
+
+.section-9 .btn i {
+    padding-left: 6px;
+}
+
+.section-9 .item {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.section-9 .item .img-wrapper {
+    flex-grow: 1;
+}
+
+
+
+
+/*---HW-10 начало--------------*/
+
+.section-10 {
+    background: #f8f8f8;
+    padding: 80px 0;
+}
+
+.section-10 h3 {
+    font-size: 16px;
+    letter-spacing: 7px;
+}
+
+.section-10 span {
+    font-size: 11px;
+    color: #aaaaaa;
+    margin-top: 25px;
+}
+
+.section-10 form {
+    margin-top: 20px;
+}
+
+.section-10 form .form-control {
+    margin-bottom: 8px;
+    margin-right: 6px;
+    padding: 15px 135px 15px 15px;
+    color: #777777;
+    font-size: 12px;
+    letter-spacing: 3px;
+}
+
+.section-10 form .btn-primary,
+.section-11 form .btn-primary {
+    background-color: #323232;
+    color: #ffffff;
+    border-color: #323232;
+    font-size: 13px;
+    padding: 8px 15px;
+    letter-spacing: 3px;
+}
+
+
+
+
+
+
+
+
+.section-11 {
+    margin: 140px 0;
+}
+
+.section-11 h4 {
+    font-size: 18px;
+    color: #111111;
+    letter-spacing: 6px;
+}
+
+.section-11 h3 {
+    font-size: 12px;
+    color: #777777;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+}
+
+.section-11 span {
+    font-size: 15px;
+    color: #444444;
+}
+
+.section-11 i {
+    font-size: 14px;
+}
+
+.section-11 .content-phones {
+    margin: 100px 0 80px 0;
+    max-width: 100%;
+}
+
+.section-11 .icon {
+    background: #111111;
+    border-radius: 3px;
+    padding: 8px;
+    margin: 7px 15px;
+    height: 25px;
+    width: 25px;
+    color: white;
+}
+
+.section-11 .icon i,
+.section-11 .icon i .fa {
+    margin: 0 auto;
+}
+
+
+.section-11 .icon,
+footer .icon {
+    transform: rotate(135deg);
+}
+
+.section-11 .icon .fa {
+    transform: rotate(-135deg);
+}
+
+.section-11 .col-lg-8 {
+    max-width: 100%;
+    margin: 12px;
+}
+
+.section-11 .first {
+    margin-bottom: 12px;
+    padding-bottom: none;
+    
+}
+
+.section-11 .second {
+    padding-top: 16px;
+    padding-bottom: 70px;
+    position: absolute;
+}
+
+.section-11 span {
+    font-size: 11px;
+    color: #aaaaaa;
+    /*margin-top: 60px;*/
+}
+
+.section-11 .form-control {
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+.section-11 form .btn-primary {
+    margin-left: 10px;
+    border-radius: 3px; 
+    margin-bottom: 0; 
+}
+
+
+.section-11 span.text {
+    margin-left: -10px;
+    margin-top: 20px;
+}
+
+.section-11 .last-bottom {
+    margin-top: 20px;
+}
+
+/*--мои добавления--при наведении меняет цвет*/
+.section-11 .icon:hover {
+    background: white;
+    color: black;
+    transition: 0.4s;
+    border: solid black 1px;
+}
+
+
+
+/*---HW-10 конец--------------*/
+
+
+
+
+.section-12 .overlay {
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.9);
+    transition: 0.5s;
+}
+
+.section-12:hover .overlay {
+    opacity: 0;
+    transform: translateY(100%)
+}
+
+.section-12 h3 {
+    color: white;
+    margin-top: 30px;
+}
+
+.section-12 .arrow-down .fa-map-marker {
+    transform: rotate(135deg);
+}
+
+.section-12 {
+    overflow: hidden;
+}
+
+
+
+/*----HW-10 footer----*/
+
+footer {
+    margin: 140px 0 60px 0;
+}
+
+footer img {
+    margin-bottom: 25px;
+}
+
+footer h3 {
+    margin-bottom: 18px;
+    font-size: 12px;
+}
+
+footer p {
+    color: #999999;
+    font-size: 11px;
+}
+
+footer .icon i {
+    padding: 5px;
+    font-size: 14px;
+}
+
+footer .icon {
+    border: solid black 1px;
+    border-radius: 3px;
+    margin: 25px 15px 110px 15px;
+    height: 30px;
+    width: 30px;
+}
+
+
+
+/*--мои добавления--при наведении меняет цвет*/
+footer .icon:hover {
+    background: #020202;
+    color: white;
+    transition: 0.4s
+}
+
+
+
+
+
+footer .icon .fa {
+    transform: rotate(-135deg);
+}
+
+footer .icon i,
+footer .icon i .fa {
+    margin: 0 auto;
+}
+
+.icon {
+    cursor: pointer;
+}
